@@ -1,7 +1,22 @@
 aid: theorycraft-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theorycraft-games.png
 name: Theorycraft Games
-description: Theorycraft Games is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Theorycraft Games is an independent video game studio backed by a16z, best known
+  for developing SUPERVIVE, a free-to-play hero shooter / MOBA-battle-royale hybrid. Surfaced as a
+  portfolio company of a16z and added to the API Evangelist network. As of this enrichment pass the
+  company publishes a consumer game and community presence but no public developer API, developer
+  portal, API documentation, SDK, or OpenAPI surface; the corporate site is in maintenance mode.
 url: https://raw.githubusercontent.com/api-evangelist/theorycraft-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +26,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Studio
+- Entertainment
+common:
+- type: Website
+  url: https://theorycraft.gg
+- type: Support
+  url: https://discord.gg/AV8Jg6H
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
